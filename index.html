@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty Zone</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <nav>
@@ -12,53 +13,72 @@
         ><img src="./images/logo.svg" alt="Logo Beauty Zone" />
       </a>
       <ul class="menu">
-        <li><a href="#about-us-section">Про нас</a></li>
-        <li><a href="#why-us-section">Чому ми</a></li>
-        <li><a href="#our-procedurs-section">Наші процедури</a></li>
-        <li><a href="#contacts-section">Контакти</a></li>
+        <li><a class="header-nav-link" href="#about-us-section">Про нас</a></li>
+        <li><a class="header-nav-link" href="#why-us-section">Чому ми</a></li>
+        <li>
+          <a class="header-nav-link" href="#our-procedurs-section"
+            >Наші процедури</a
+          >
+        </li>
+        <li>
+          <a class="header-nav-link" href="#contacts-section">Контакти</a>
+        </li>
       </ul>
       <ul>
         <li>
           <a href="tel:+380960000007">
-            <img src="./images/phone.svg" alt="Call" />
+            <img class="social-icons" src="./images/phone.svg" alt="Call" />
           </a>
         </li>
         <li>
           <a href="https://www.facebook.com/">
-            <img src="./images/fb.svg" alt="Facebook" />
+            <img class="social-icons" src="./images/fb.svg" alt="Facebook" />
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/">
-            <img src="./images/insta.svg" alt="Instagram" />
+            <img
+              class="social-icons"
+              src="./images/insta.svg"
+              alt="Instagram"
+            />
           </a>
         </li>
       </ul>
     </nav>
     <main>
       <section id="hero-section">
-        <h6>Косметологічна клініка</h6>
-        <h1>Beauty Zone</h1>
-        <button type="submit">Замовити дзвінок</button>
+        <h6 class="hero-company-type">Косметологічна клініка</h6>
+        <h1 class="hero-title">Beauty Zone</h1>
+        <button class="button-order-a-call" type="submit">
+          Замовити дзвінок
+        </button>
         <!-- FORM Order a call  -->
-        <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+        <p class="hero-call-to-action">
+          Запишись та отримай безкоштовну консультацію нашого косметолога
+        </p>
       </section>
       <section id="about-us-section">
-        <h2>Перевтілюйтесь в <span>Beauty Zone!</span></h2>
+        <h2 class="section-title">
+          Перевтілюйтесь в <span class="span-accent">Beauty Zone!</span>
+        </h2>
         <p>
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
         </p>
         <p>
-          B <span>Beauty Zone</span> ми гарантуємо найвищі стандарти якості та
-          приємний сервіс. Наші косметологічні процедури та препарати допоможуть
-          вам підтримувати свою красу та молодість. З нами краса назавжди!
+          B <span class="span-accent">Beauty Zone</span> ми гарантуємо найвищі
+          стандарти якості та приємний сервіс. Наші косметологічні процедури та
+          препарати допоможуть вам підтримувати свою красу та молодість. З нами
+          краса назавжди!
         </p>
         <!-- IMG -->
         <!-- IMG -->
       </section>
       <section id="why-us-section">
-        <h2>Чому люди <span>обирають нас</span></h2>
+        <h2 class="section-title">
+          Чому люди <span class="span-accent">обирають нас</span>
+        </h2>
         <ul>
           <li>
             <article>
@@ -90,13 +110,15 @@
         </ul>
       </section>
       <section id="our-procedurs-section">
-        <h2>Наші <span>процедури</span></h2>
+        <h2 class="section-title">
+          Наші <span class="span-accent">процедури</span>
+        </h2>
         <ul>
           <!-- IMG -->
           <li>
             <article>
               <img src="" alt="Маски для обличчя" />
-              <p>Маски для обличчя</p>
+              <p class="procedure-aricle-description">Маски для обличчя</p>
             </article>
           </li>
           <li>
@@ -114,7 +136,9 @@
         </ul>
       </section>
       <section id="contacts-section">
-        <h2>Як нас <span>знайти</span></h2>
+        <h2 class="section-title">
+          Як нас <span class="span-accent">знайти</span>
+        </h2>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.4785345098394!2d30.51775167712003!3d50.45081307159225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce50853c3c51%3A0x6703d85b0d10b524!2sTarasa%20Shevchenka%20Ln%2C%205%2C%20Kyiv%2C%20Ukraine%2C%2002000!5e0!3m2!1sen!2sde!4v1718569104987!5m2!1sen!2sde"
           width="600"
@@ -149,22 +173,26 @@
       <ul>
         <li>
           <a href="tel:+380960000007">
-            <img src="./images/phone.svg" alt="Call" />
+            <img class="social-icons" src="./images/phone.svg" alt="Call" />
           </a>
         </li>
         <li>
           <a href="https://www.facebook.com/">
-            <img src="./images/fb.svg" alt="Facebook" />
+            <img class="social-icons" src="./images/fb.svg" alt="Facebook" />
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/">
-            <img src="./images/insta.svg" alt="Instagram" />
+            <img
+              class="social-icons"
+              src="./images/insta.svg"
+              alt="Instagram"
+            />
           </a>
         </li>
       </ul>
-      <p>Політика конфіденційності</p>
-      <p>&copy; 2022 Дані захищені</p>
+      <a href="#">Політика конфіденційності</a>
+      <a class="footer-copy" href="#">&copy; 2022 Дані захищені</a>
       <!-- IMG -->
     </footer>
   </body>
