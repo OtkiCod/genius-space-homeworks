@@ -136,14 +136,27 @@ address {
 }
 
 /* Section Why */
+.why-title {
+    text-align: center;
+}
+
 .why-article-paragraph {
     font-size: 18px;
     line-height: 1.33;
 }
 /* Section Procedures */
+.procedures-title {
+    text-align: center;
+}
+
 .procedure-aricle-description {
     color: var(--color-primary-light);
     line-height: 1.2;
+}
+
+/* Contacts Section */
+.contacts-title {
+    text-align: center;
 }
 
 /* Footer */
@@ -155,6 +168,11 @@ footer {
 footer a{
     color: var(--color-primary-light);
     font-size: 16px;
+}
+
+footer a:hover {
+    color: var(--color-brand-light);
+    /* font-weight: 700; */
 }
 
 .social-icons-footer {
