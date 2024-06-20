@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beauty Zone</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
+      rel="stylesheet"
+    /> -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -62,11 +68,11 @@
         <h2 class="section-title">
           Перевтілюйтесь в <span class="span-accent">Beauty Zone!</span>
         </h2>
-        <p>
+        <p class="about-paragraph">
           Наша косметологічна клініка пропонує вам професійні послуги з догляду
           за шкірою обличчя та тіла.
         </p>
-        <p>
+        <p class="about-paragraph">
           B <span class="span-accent">Beauty Zone</span> ми гарантуємо найвищі
           стандарти якості та приємний сервіс. Наші косметологічні процедури та
           препарати допоможуть вам підтримувати свою красу та молодість. З нами
@@ -82,8 +88,8 @@
         <ul>
           <li>
             <article>
-              <img src="" alt="Науковці" />
-              <p>
+              <img src="./images/science.svg" alt="Науковці" />
+              <p class="why-article-paragraph">
                 Всі наші косметологи мають вищу медичну освіту та стаж роботи
                 від 5 років
               </p>
@@ -91,8 +97,11 @@
           </li>
           <li>
             <article>
-              <img src="" alt="Найкращі обладнання та косметика" />
-              <p>
+              <img
+                src="./images/cosmetics-bottle.svg"
+                alt="Найкращі обладнання та косметика"
+              />
+              <p class="why-article-paragraph">
                 Використовуємо тільки професійне обладнання та косметику,
                 перевірену часом
               </p>
@@ -100,8 +109,8 @@
           </li>
           <li>
             <article>
-              <img src="" alt="Корона" />
-              <p>
+              <img src="./images/crown.svg" alt="Корона" />
+              <p class="why-article-paragraph">
                 Наша мета - підкреслити переваги та приховати недоліки, а не
                 переробити
               </p>
@@ -161,38 +170,52 @@
         <li><a href="#our-procedurs-section">Наші процедури</a></li>
         <li><a href="#contacts-section">Контакти</a></li>
       </ul>
-      <ul>
-        <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
-        <li><a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a></li>
-        <li>
-          <a href="https://maps.app.goo.gl/Nun4yXYvboQHSqK28" target="_blank">
-            Україна, м. Київ, вул. Тараса Шевченка 5
-          </a>
-        </li>
-      </ul>
+      <address>
+        <ul>
+          <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
+          <li>
+            <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
+          </li>
+          <li>
+            <a href="https://maps.app.goo.gl/Nun4yXYvboQHSqK28" target="_blank">
+              Україна, м. Київ, вул. Тараса Шевченка 5
+            </a>
+          </li>
+        </ul>
+      </address>
       <ul>
         <li>
           <a href="tel:+380960000007">
-            <img class="social-icons" src="./images/phone.svg" alt="Call" />
+            <img
+              class="social-icons-footer"
+              src="./images/phone.svg"
+              alt="Call"
+            />
           </a>
         </li>
         <li>
           <a href="https://www.facebook.com/">
-            <img class="social-icons" src="./images/fb.svg" alt="Facebook" />
+            <img
+              class="social-icons-footer"
+              src="./images/fb.svg"
+              alt="Facebook"
+            />
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/">
             <img
-              class="social-icons"
+              class="social-icons-footer"
               src="./images/insta.svg"
               alt="Instagram"
             />
           </a>
         </li>
       </ul>
-      <a href="#">Політика конфіденційності</a>
-      <a class="footer-copy" href="#">&copy; 2022 Дані захищені</a>
+      <ul>
+        <li><a href="#">Політика конфіденційності</a></li>
+        <li><a class="footer-copy" href="#">&copy; 2022 Дані захищені</a></li>
+      </ul>
       <!-- IMG -->
     </footer>
   </body>
