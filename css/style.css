@@ -60,7 +60,7 @@ body {
     font-weight: 400;
     line-height: normal;
     /* Bgc to test only */
-    background-color: #f5f5f5;
+    background-color: #f1f1f1;
 }
 
 address {
@@ -103,6 +103,7 @@ address {
 .hero-company-type {
     color: var(--color-brand-dark);
     font-size: 18px;
+    font-weight: 400;
 }
 
 .hero-title {
@@ -127,7 +128,8 @@ address {
 }
 
 .span-accent {
-    color: var(--color-brand-light);
+    color: var(--color-brand-dark);
+    font-weight: 600;
     }
 
 /* Section About     */
