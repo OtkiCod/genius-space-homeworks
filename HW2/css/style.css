@@ -77,6 +77,7 @@ address {
     color: #FFFFFF;
     border-radius: 32px;
     border: 2px solid var(--color-brand-light);
+    font-family: var(--font-brand-main);
     font-size: 18px;
     font-weight: 600;
 }
