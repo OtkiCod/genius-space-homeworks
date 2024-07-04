@@ -44,7 +44,7 @@
     --font-brand-main: 'Roboto', Verdana, sans-serif;
 }
 
-/* Base */
+/* Base or reset */
 * {
     box-sizing: border-box;
 }
